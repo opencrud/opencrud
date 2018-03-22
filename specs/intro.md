@@ -29,7 +29,3 @@ GraphQL is a flexible query language supporting many different data access patte
 ## Reference Implementation
 
 [Prisma](https://github.com/graphcool/prisma) serves as a reference implementation of OpenCRUD
-
-Other implementations include:
-
-*
