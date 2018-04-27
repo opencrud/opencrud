@@ -38,7 +38,7 @@ GraphQL is a flexible query language supporting many different data access patte
 - [Prisma](https://github.com/graphcool/prisma)
 - [PostGraphile](https://github.com/graphile/postgraphile) (planned)
 - [VulcanJS](https://github.com/VulcanJS/Vulcan) (planned)
-- [Strapi](https://github.com/strapi/strapi) (planned)
+- [Strapi](https://github.com/strapi/strapi) [(planned)](https://github.com/strapi/strapi/issues/1057)
 
 > Feel free to create a PR to add your project to the list
 
