@@ -1,4 +1,4 @@
-## Overview
+# Overview
 
 OpenCRUD is a fully [GraphQL compliant](http://facebook.github.io/graphql/) query language to access and modify data. OpenCRUD provides API flavours for many popular databases including MySQL and MongoDB.
 

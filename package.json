@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "spec-md spec/OpenCRUD.md > /dev/null",
+    "build": "mkdir -p dist; spec-md spec/OpenCRUD.md > dist/index.html",
+    "watch": "mkdir -p dist; nodemon --exec 'spec-md > dist/index.html' spec/OpenCRUD.md"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3",
+    "spec-md": "^0.6.0"
+  }
+}
