@@ -9,7 +9,7 @@ For example, this OpenCRUD query retrieves a single user:
 
 ```graphql
 {
-  user(whare: { id: 4 }) {
+  user(where: { id: 4 }) {
     name
   }
 }
