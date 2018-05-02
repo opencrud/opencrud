@@ -1,3 +1,5 @@
+<p align="center"><img src="https://i.imgur.com/OwSXD9j.png" width="150" /></p>
+
 # OpenCRUD
 
 OpenCRUD is a GraphQL CRUD API specification for databases
