@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i.imgur.com/OwSXD9j.png" width="150" /></p>
+<p align="center"><img src="https://i.imgur.com/t8WPeTM.png" width="150" /></p>
 
 # OpenCRUD
 
