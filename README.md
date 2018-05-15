@@ -39,6 +39,7 @@ GraphQL is a flexible query language supporting many different data access patte
 ## Projects compatible with OpenCRUD
 
 - [Prisma](https://github.com/graphcool/prisma)
+- [GraphCMS](https://graphcms.com)
 - [PostGraphile](https://github.com/graphile/postgraphile) (planned)
 - [VulcanJS](https://github.com/VulcanJS/Vulcan) (planned)
 - [Strapi](https://github.com/strapi/strapi) [(planned)](https://github.com/strapi/strapi/issues/1057)
