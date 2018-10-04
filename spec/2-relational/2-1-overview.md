@@ -45,4 +45,4 @@ The following directives have special meaning when used in example SDL in this s
 
 ### [Mutations: Batch](2-3-mutations/2-3-2-batch.md)
 
-### [Mutations: Nested](2-3-mutations/2-3-3-nested.md)
+### [Mutations: Input Types](2-3-mutations/2-3-3-input-types.md)
