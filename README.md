@@ -51,36 +51,45 @@ GraphQL is a flexible query language supporting many different data access patte
 - Specs
     - SDL for data modelling: non normative
     - relational
-        - [Intro](https://github.com/opencrud/opencrud/blob/master/specs/relational/1-intro.md)
+        - [Intro][intro]
             - Areas covered
             - Focus on API, not implementation/runtime characteristics
         - Queries
-            - [Top level](https://github.com/opencrud/opencrud/blob/master/specs/relational/queries/2-1-toplevel.md)
+            - [Top level][top-level]
                 - Single fields multi fields
                 - Multi field conenctions
                 - Node field
-            - [Relations](https://github.com/opencrud/opencrud/blob/master/specs/relational/queries/2-2-relations.md)
+            - [Relations][relations]
                 - Both simple and connection
                 - Connections
                     - Aggregations
                     - Cursor
-            - [Filters](https://github.com/opencrud/opencrud/blob/master/specs/relational/queries/2-3-filters.md)
+            - [Filters][filters]
                 - Data type specific filters
                 - Single node
                 - Multi node
                 - Cross-relation filters
-            - [Aggregations](https://github.com/opencrud/opencrud/blob/master/specs/relational/queries/2-4-aggregations.md)
+            - [Aggregations][aggregations]
         - Mutations
-            - [CRUD](https://github.com/opencrud/opencrud/blob/master/specs/relational/mutations/3-1-CRUD.md)
+            - [CRUD][crud]
                 - Overview
                 - Create
                 - Update
                 - Delete
-            - [Batch mutations](https://github.com/opencrud/opencrud/blob/master/specs/relational/mutations/3-2-batch.md)
+            - [Batch mutations][batch-mutations]
                 - Overview
                 - Update
                 - Delete
-            - [Nested mutations](https://github.com/opencrud/opencrud/blob/master/specs/relational/mutations/3-3-nested.md)
+            - [Nested mutations][nested-mutations]
             - Return type
         - Subscriptions
         - Generated type names
+
+[intro]: /spec/2-relational/2-1-overview.md
+[top-level]: /spec/2-relational/2-2-queries/2-2-1-toplevel.md
+[relations]: /spec/2-relational/2-2-queries/2-2-2-relations.md
+[filters]: /spec/2-relational/2-2-queries/2-2-3-filters.md
+[aggregations]: /spec/2-relational/2-2-queries/2-2-4-aggregations.md
+[crud]: /spec/2-relational/2-3-mutations/2-3-1-crud.md
+[batch-mutations]: /spec/2-relational/2-3-mutations/2-3-2-batch.md
+[nested-mutations]: /spec/2-relational/2-3-mutations/2-3-3-nested.md
