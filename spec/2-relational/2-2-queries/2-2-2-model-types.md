@@ -16,11 +16,13 @@ Sclar fields map directly. Each scalar field present in the model will generate 
 ## Relation Fields
 
 ### Multi Relation
+
 Each multi relation in the database will generate a multi field, exactly as described in [the top level specification](./2-2-1-toplevel.md).
 
 TODO: Will there be a connection type as well? 
 
 ### Single Relation
+
 Each single relation will generate a field field of the same name, where the type of the field is the model type of the related type. 
 
 ## Example

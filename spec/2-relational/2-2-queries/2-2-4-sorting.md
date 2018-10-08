@@ -1,7 +1,7 @@
 # Queries: Sorting
 
 ## Overview
- 
+
 The sort order input type is an enum, with fields generated according to the associated data type. 
 
 ## Generated Fields

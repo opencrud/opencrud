@@ -12,6 +12,7 @@ Pagination is possible on multi fields, as well as multi connection fields by us
 The `PageInfo` type is as type of the `pageInfo` field of a connection type. It contains pagination information for the current result set. The `PageInfo` type is not associated with any specific data type and only exists once. 
 
 **Definition**
+
 ```graphql
 type PageInfo {
   hasNextPage: Boolean!

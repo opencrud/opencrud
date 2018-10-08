@@ -17,7 +17,7 @@ Retrieve a single data record, allows filtering.
 
 The type of this field is always a model type. 
 
-#### Arguments 
+### Arguments 
 * `where`, a unique filter. 
 
 ## Multi fields
@@ -26,7 +26,7 @@ Retrieve multiple data records, allows filtering, sorting and pagination.
 
 The type of this field is always a list of type model type. 
 
-#### Arguments
+### Arguments
 * `where`, a filter.
 * `orderBy`, a sort order (TODO, find a better name). 
 * `skip`, an integer, specifying how many matching nodes to skip before returing a node as result. 
@@ -42,6 +42,7 @@ Retrieve multiple data records. This field is [Relay compliant](https://facebook
 The type of this field is a connection type, which has the following `pageInfo`, `aggregate` and `edges` subfields. The `edges` subfield is of type list of edge, where each edge contains the actual node. The `pageInfo` subfield is of type `PageInfo` subfield contains pagination information for the current result set.  
 
 ### Arguments
+
 The arguments are equal to the connection field. 
 
 ## Node field
@@ -51,6 +52,7 @@ The node field is specified by the [Relay spec](https://facebook.github.io/relay
 The type of this field is the special type `Node`.
 
 ### Arguments
+
 * `id`, the ID of the node to return. 
 
 ## Remarks

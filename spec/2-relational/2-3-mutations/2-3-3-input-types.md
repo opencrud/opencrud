@@ -114,6 +114,7 @@ input PostUpdateInput {
 ```
 
 Other types:
+
 ```graphql
 input PostUpdateManyWithoutUserInput {
   create: [PostCreateWithoutUserInput!]

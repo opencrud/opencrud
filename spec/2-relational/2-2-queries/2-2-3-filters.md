@@ -48,7 +48,9 @@ field_lte: String # less then or equals
 field_gt: String # greater than
 field_gte: String # greater than or equals
 ```
+
 #### Integer Filters
+
 ```graphql
 # Integer field
 field: Integer # equals
@@ -60,6 +62,7 @@ field_gte: Integer # greater than or equals
 ```
 
 #### Float filters
+
 ```graphql
 # Float field
 field: Float # equals
@@ -71,6 +74,7 @@ field_gte: Float # greater than or equals
 ```
 
 #### Boolean filters
+
 ```
 # Boolean field
 field: Boolean # equals
@@ -78,6 +82,7 @@ field_not: Boolean # not equals
 ```
 
 #### DateTime filters
+
 ```
 # DateTime field
 field: DateTime # equals
@@ -91,6 +96,7 @@ field_gte: DateTime # greater than or equals
 ```
 
 #### Enum filters
+
 ```
 # Enum field
 field: Enum # equals
@@ -98,6 +104,7 @@ field_not: Enum # not equals
 ```
 
 #### List filters
+
 ```
 # List[T] field
 field_contains: T # contains single scalar T
@@ -110,6 +117,7 @@ field_contains_some: [T] # contains at least 1 scalar T
 In relational databases it is common to filter based on columns in a related table. In OpenCRUD this concept is called relation filters.
 
 #### Many relation filter fields
+
 ```
 # Many Relation field
 field_every: Filter # condition must be true for all nodes
@@ -121,6 +129,7 @@ field_is_null: Boolean # is the relation field null
 In this context, `Filter` is a filter object for the related type.
 
 #### One relation filter field
+
 ```
 # one Relation field
 field: UniqueFilter # condition must be true for related node
