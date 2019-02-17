@@ -1,4 +1,4 @@
-# Mutationa: Batch Operations
+# Mutations: Batch Operations
 
 * Overview
 * Update
