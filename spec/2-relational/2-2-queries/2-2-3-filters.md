@@ -16,7 +16,7 @@ OpenCRUD filters are designed to surface as many capabilities of the underlying 
 The available filters depend on the type of a field. For example an Integer field supports the greater than filter while a String field supports the contains filter that match on substrings.
 
 ```graphql
-type UserWhereInput {
+input UserWhereInput {
   AND: [UserWhereInput]
   OR: [UserWhereInput]
 
