@@ -5,7 +5,7 @@ OpenCRUD
 
 **Introduction**
 
-TBD
+OpenCRUD is a GraphQL CRUD API specification for databases that was started by [Prisma](https://www.prisma.io).
 
 # [Overview](1-overview.md)
 
