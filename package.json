@@ -5,7 +5,7 @@
     "watch": "mkdir -p dist; nodemon --exec 'spec-md > dist/index.html' spec/OpenCRUD.md"
   },
   "devDependencies": {
-    "nodemon": "^1.17.3",
-    "spec-md": "^0.6.0"
+    "nodemon": "2.0.4",
+    "spec-md": "1.1.1"
   }
 }
