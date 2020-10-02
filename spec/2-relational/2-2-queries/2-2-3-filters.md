@@ -63,12 +63,12 @@ type UserWhereInput {
   # DateTime field
   field: DateTime # equals
   field_not: DateTime # not equals
-  field_in: [DateTime] # in list
-  field_not_in: [DateTime] # not in list
   field_lt: DateTime # less than
   field_lte: DateTime # less then or equals
   field_gt: DateTime # greater than
   field_gte: DateTime # greater than or equals
+  field_in: [DateTime] # in list
+  field_not_in: [DateTime] # not in list
   
   # Enum field
   field: Enum # equals
