@@ -82,13 +82,14 @@ type UserWhereInput {
   field_contains_some: [T] # contains at least 1 scalar T
  
   # many Relation field
-   field_every: FilterCondition # condition must be true for all nodes
+  field_every: FilterCondition # condition must be true for all nodes
   field_some: FilterCondition # condition must be true for at least 1 node
   field_none: FilterCondition # condition must be false for all nodes
-  field_is_null: Boolean # is the relation field null
+  field_is_null: Boolean # are there any relations
  
   # one Relation field
   field: UserWhereInput # condition must be true for related node
+  field_is_null: Boolean # is the relation field null
 }
 ```
 
